@@ -35,6 +35,19 @@ window.addEventListener('scroll', () => {
     lastScroll = currentScroll;
 });
 
+// ============================================
+// Publications Dropdown Toggle
+// ============================================
+const publicationsToggle = document.getElementById('publications-toggle');
+const publicationsContent = document.getElementById('publications-content');
+
+if (publicationsToggle && publicationsContent) {
+    publicationsToggle.addEventListener('click', () => {
+        publicationsToggle.classList.toggle('active');
+        publicationsContent.classList.toggle('open');
+    });
+}
+
 // Active nav link on scroll
 const sections = document.querySelectorAll('section[id]');
 
