@@ -23,6 +23,7 @@
                 <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="#expertise" class="nav-link">Expertise</a></li>
                 <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
                 <li class="nav-item"><a href="#publications" class="nav-link">Publications</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
@@ -59,8 +60,9 @@
                 <p class="hero-description">Passionate about Molecular Genetics, Bioinformatics, Drug Discovery, and AI in Healthcare</p>
                 <div class="hero-buttons">
                     <a href="#about" class="btn btn-primary">Explore My Work</a>
-                    <a href="static/Buntu_cv.pdf" download class="btn btn-secondary">
+                    <a href="static/Buntu_cv.pdf" download class="btn btn-secondary cv-download-btn">
                         <i class="fas fa-download"></i> Download CV
+                        <span class="cv-updated">Updated: 2024</span>
                     </a>
                 </div>
             </div>
@@ -93,10 +95,31 @@
             <div class="about-content">
                 <div class="about-text">
                     <p class="lead-text">
-                        Hi, I'm <strong>Olabuntu Babatunde Afeez</strong>, a Graduate Research Intern at the International Institute of Tropical Agriculture (IITA), Ibadan, working under Dr. Agre Paterne in the Yam Breeding Unit. I'm a passionate biochemist and computational biologist with expertise in Molecular Genetics, Bioinformatics, Drug Discovery, and Artificial Intelligence in healthcare.
+                        I am a <strong>computational genomics researcher in training</strong>, driven by a deep interest in understanding how genetic variation shapes complex phenotypes. My long-term goal is to uncover the molecular mechanisms that connect genotype to phenotype using integrative computational genomics approaches.
                     </p>
                     <p>
-                        I hold a B.Sc. (Hons.) in Biochemistry from the University of Ibadan, where my thesis focused on evaluating inhibitory effects of plant extracts using in vitro assays, machine learning, and molecular docking techniques. My research interests lie at the intersection of computational biology and biochemistry, with a particular focus on applying artificial intelligence and machine learning techniques to solve complex biological problems in drug discovery, genomics, and agricultural research.
+                        My work sits at the intersection of <strong>genomics, artificial intelligence, and molecular biology</strong>. I build data-driven systems that analyze high-dimensional biological data — including SNPs, RNA-seq expression profiles, GWAS datasets, and genomic selection models — to extract mechanistic insight from complex biological systems.
+                    </p>
+                    <p>
+                        Currently, I work as a <strong>Graduate Research Intern at the International Institute of Tropical Agriculture (IITA)</strong>, where I contribute to genome-wide association studies, genomic selection modeling, RNA-seq analysis pipelines, and SNP database engineering to accelerate trait discovery and breeding efficiency. My research combines statistical genetics, machine learning, and deep learning to identify candidate genes, interpret variant effects, and model genotype–trait relationships.
+                    </p>
+                    <p>
+                        Previously, I developed AI-guided pipelines for drug discovery, integrating experimental assays with machine learning, molecular docking, and predictive modeling. These experiences strengthened my ability to bridge wet-lab molecular biology with computational modeling — a foundation that now fuels my interest in mechanistic genomics.
+                    </p>
+                    
+                    <div class="research-interests">
+                        <h4>I am particularly interested in:</h4>
+                        <ul class="interests-list">
+                            <li><i class="fas fa-dna"></i> Mechanistic interpretation of genotype-to-phenotype relationships</li>
+                            <li><i class="fas fa-chart-bar"></i> Integrative analysis of GWAS and transcriptomic datasets</li>
+                            <li><i class="fas fa-code-branch"></i> Variant effect prediction (SNPs and regulatory sequences)</li>
+                            <li><i class="fas fa-sitemap"></i> Gene regulatory modeling and promoter analysis</li>
+                            <li><i class="fas fa-robot"></i> AI-driven discovery in genomics and precision biology</li>
+                        </ul>
+                    </div>
+                    
+                    <p class="mission-statement">
+                        <i class="fas fa-bullseye"></i> <strong>My Mission:</strong> To develop interpretable computational systems that move beyond prediction — toward biological understanding.
                     </p>
                     <div class="info-grid">
                         <div class="info-item">
@@ -110,7 +133,7 @@
                             <i class="fas fa-code"></i>
                             <div>
                                 <strong>Languages:</strong>
-                                <span>Python, R, SQL, MySQL, Bash, HTML, CSS</span>
+                                <span>Python, R, SQL, MySQL, Bash, JavaScript, HTML, CSS</span>
                             </div>
                         </div>
                         <div class="info-item">
@@ -179,34 +202,50 @@
             <div class="expertise-grid">
                 <div class="expertise-card" data-aos="fade-up">
                     <div class="card-icon">
-                        <i class="fas fa-robot"></i>
+                        <i class="fas fa-dna"></i>
                     </div>
-                    <h3>Artificial Intelligence</h3>
-                    <p>Expert in Machine Learning and Deep Learning techniques. Building intelligent systems for drug discovery and biological data analysis.</p>
+                    <h3>Computational Genomics & Statistical Genetics</h3>
+                    <p>I analyze large-scale genomic datasets to uncover genetic variants and molecular mechanisms underlying complex traits. My work includes genome-wide association studies (GWAS), SNP interpretation, genomic selection modeling, and integrative genotype–phenotype analysis.</p>
+                    <div class="expertise-meta">
+                        <p class="expertise-focus"><strong>Focus Areas:</strong> GWAS, SNP analysis, variant interpretation, genomic prediction, quantitative trait modeling</p>
+                        <p class="expertise-tools"><strong>Tools:</strong> PLINK, GAPIT, TASSEL, R, Python</p>
+                    </div>
                     <a href="#projects" class="card-link">View Projects <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="expertise-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="card-icon">
-                        <i class="fas fa-dna"></i>
+                        <i class="fas fa-chart-line"></i>
                     </div>
-                    <h3>Bioinformatics</h3>
-                    <p>Experience in Pairwise Alignment (global and local) and BLAST searches. Analyzing biological sequences and predicting protein functions.</p>
+                    <h3>Transcriptomics & Gene Expression Modeling</h3>
+                    <p>I design and implement reproducible RNA-seq pipelines for differential gene expression and regulatory analysis. I integrate transcriptomic data with genetic variation to understand how gene expression mediates phenotypic outcomes.</p>
+                    <div class="expertise-meta">
+                        <p class="expertise-focus"><strong>Focus Areas:</strong> RNA-seq analysis, differential expression, gene ontology, regulatory modeling</p>
+                        <p class="expertise-tools"><strong>Tools:</strong> HISAT2, FeatureCounts, DESeq2, edgeR, SAMtools</p>
+                    </div>
                     <a href="#projects" class="card-link">View Projects <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="expertise-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="card-icon">
-                        <i class="fas fa-cogs"></i>
+                        <i class="fas fa-robot"></i>
                     </div>
-                    <h3>Automation & Scripting</h3>
-                    <p>Using Python modules like Selenium, BeautifulSoup, and PyAutoGUI to automate tasks. Expert in Bash scripting for bioinformatics pipelines, data processing workflows, and system automation.</p>
+                    <h3>AI for Biological Sequence & Variant Interpretation</h3>
+                    <p>I develop deep learning and machine learning models to interpret genomic sequences, regulatory elements, and biological variation. My goal is not just prediction — but mechanistic understanding.</p>
+                    <div class="expertise-meta">
+                        <p class="expertise-focus"><strong>Focus Areas:</strong> Promoter prediction, DNA-to-protein modeling, generative models for gene expression, variant effect prediction</p>
+                        <p class="expertise-tools"><strong>Tools:</strong> PyTorch, scikit-learn, Transformer architectures</p>
+                    </div>
                     <a href="#projects" class="card-link">View Projects <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="expertise-card" data-aos="fade-up" data-aos-delay="300">
                     <div class="card-icon">
-                        <i class="fas fa-laptop-code"></i>
+                        <i class="fas fa-server"></i>
                     </div>
-                    <h3>Web Development & SQL</h3>
-                    <p>Building websites for algorithms and applications. Expert in database manipulation and management using SQL and MySQL.</p>
+                    <h3>Bioinformatics Systems & Research Automation</h3>
+                    <p>I build scalable computational infrastructures for genomic data processing, including automated RNA-seq pipelines, SNP databases, and high-throughput analysis workflows.</p>
+                    <div class="expertise-meta">
+                        <p class="expertise-focus"><strong>Focus Areas:</strong> Pipeline engineering, database systems for genomic data, reproducible research workflows</p>
+                        <p class="expertise-tools"><strong>Tools:</strong> Bash scripting, SQL, Python automation</p>
+                    </div>
                     <a href="#projects" class="card-link">View Projects <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -223,6 +262,131 @@
             </div>
             <div class="projects-scroll-container">
                 <div class="projects-scroll-wrapper">
+                <!-- ML Project 1: Breast Cancer Bone Relapse Prediction -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/olabuntubabatunde/AI/blob/main/Project1/work.ipynb" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-badge">ML/Healthcare</div>
+                        <div class="project-icon">
+                            <i class="fas fa-dna"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Breast Cancer Bone Relapse Prediction</h3>
+                        <p class="project-tagline">XGBoost Model for Predicting Bone Metastasis Risk</p>
+                        <p>
+                            Analyzed RNA-seq expression profiles from 286 breast cancer patients (GSE2034) to predict bone metastasis risk. Applied two-stage feature selection (correlation filtering + mutual information) to reduce dimensionality from 22,283 to 1,750 genes. Achieved 79.31% accuracy with XGBoost, enabling identification of high-risk patients for precision oncology.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">RNA-seq</span>
+                            <span class="tech-tag">Precision Medicine</span>
+                        </div>
+                        <a href="https://github.com/olabuntubabatunde/AI/blob/main/Project1/work.ipynb" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ML Project 2: Drug Response Prediction -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/olabuntubabatunde/AI/blob/main/Project3/work.ipynb" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-badge">ML/Drug Discovery</div>
+                        <div class="project-icon">
+                            <i class="fas fa-dna"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Drug Response Prediction in Cancer Cell Lines</h3>
+                        <p class="project-tagline">Large-Scale Predictive Pipeline Using GDSC Data</p>
+                        <p>
+                            Built a large-scale predictive pipeline using GDSC data (~333,000 drug–cell line pairs) to model drug sensitivity (AUC) across 1,000 cancer cell lines and 400 compounds. Engineered 721 features encoding drug targets, pathways, and TCGA cancer types. Achieved R² = 0.90 and RMSE = 0.056 with XGBoost regression for personalized therapy prediction.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">Feature Engineering</span>
+                            <span class="tech-tag">Personalized Medicine</span>
+                        </div>
+                        <a href="https://github.com/olabuntubabatunde/AI/blob/main/Project3/work.ipynb" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ML Project 3: Medical Text Classification -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/olabuntubabatunde/AI/blob/main/Project4/work.ipynb" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-badge">NLP/Transformers</div>
+                        <div class="project-icon">
+                            <i class="fas fa-dna"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Medical Text Classification with Transformers</h3>
+                        <p class="project-tagline">BioBERT Fine-Tuning for Clinical NLP</p>
+                        <p>
+                            Fine-tuned transformer architectures (BERT, DistilBERT, BioBERT, BioClinicalBERT) on 14,438 medical abstracts to classify texts into five clinical categories. Achieved 65.34% validation accuracy with BioBERT-v1.1, demonstrating that biomedical domain-pretrained models consistently outperform general-purpose language models for clinical decision support.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Transformers</span>
+                            <span class="tech-tag">BioBERT</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                        <a href="https://github.com/olabuntubabatunde/AI/blob/main/Project4/work.ipynb" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ML Project 4: DNA-to-Protein Translation -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/olabuntubabatunde/AI/blob/main/Project2/work.ipynb" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-badge">Deep Learning</div>
+                        <div class="project-icon">
+                            <i class="fas fa-dna"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>DNA-to-Protein Sequence Translation</h3>
+                        <p class="project-tagline">Sequence-to-Sequence Models for Synthetic Biology</p>
+                        <p>
+                            Implemented and compared sequence-to-sequence models (RNN, LSTM, GRU, Transformer) for translating DNA codons into amino acid sequences using 20,000 synthetic DNA–protein pairs. Achieved 64.43% token-level accuracy with a bidirectional LSTM, demonstrating effective learning of codon–amino acid mappings for synthetic biology applications.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">LSTM</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Synthetic Biology</span>
+                        </div>
+                        <a href="https://github.com/olabuntubabatunde/AI/blob/main/Project2/work.ipynb" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Existing Project: Computer-Aided Drug Design -->
                 <div class="project-card">
                     <div class="project-image">
                         <div class="project-overlay">
@@ -773,52 +937,78 @@
                 <h2 class="section-title">Publications & Research</h2>
                 <p class="section-subtitle">My contributions to scientific literature</p>
             </div>
-            <div class="publications-list">
-                <div class="publication-card">
-                    <div class="publication-year">2025</div>
-                    <div class="publication-content">
-                        <h3>Machine learning-based QSAR and molecular modeling identify promising PTP1B modulators from Ocimum gratissimum for type 2 diabetes therapy</h3>
-                        <p class="publication-authors">Oludare M Ogunyemi, Esther O Adeyeye, Oladimeji S Macaulay, <strong>Babatunde A Olabuntu</strong>, J Achem, Gideon A Gyebi, Charles O Olaiya, Saheed Sabiu</p>
-                        <p class="publication-abstract">
-                            This study employs machine learning-based QSAR models and molecular modeling to identify potential PTP1B modulators from Ocimum gratissimum, offering new therapeutic candidates for type 2 diabetes treatment.
-                        </p>
-                        <div class="publication-meta">
-                            <span class="publication-type"><i class="fas fa-book"></i> Research Paper</span>
-                            <span class="publication-status"><i class="fas fa-check-circle"></i> Published</span>
-                            <span class="publication-journal">Molecular Diversity</span>
-                            <span class="publication-doi">DOI: 10.1007/s11030-025-11255-x</span>
+            
+            <!-- Publications Dropdown -->
+            <div class="publications-dropdown">
+                <button class="publications-toggle" id="publications-toggle">
+                    <span class="toggle-text">
+                        <i class="fas fa-book-open"></i>
+                        View My Publications
+                        <span class="publication-count">3 Papers</span>
+                    </span>
+                    <span class="toggle-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                </button>
+                
+                <div class="publications-content" id="publications-content">
+                    <div class="publications-list">
+                        <div class="publication-card">
+                            <div class="publication-year">2025</div>
+                            <div class="publication-content">
+                                <h3>Machine learning-based QSAR and molecular modeling identify promising PTP1B modulators from Ocimum gratissimum for type 2 diabetes therapy</h3>
+                                <p class="publication-authors">Oludare M Ogunyemi, Esther O Adeyeye, Oladimeji S Macaulay, <strong>Babatunde A Olabuntu</strong>, J Achem, Gideon A Gyebi, Charles O Olaiya, Saheed Sabiu</p>
+                                <p class="publication-abstract">
+                                    This study employs machine learning-based QSAR models and molecular modeling to identify potential PTP1B modulators from Ocimum gratissimum, offering new therapeutic candidates for type 2 diabetes treatment.
+                                </p>
+                                <div class="publication-meta">
+                                    <span class="publication-type"><i class="fas fa-book"></i> Research Paper</span>
+                                    <span class="publication-status"><i class="fas fa-check-circle"></i> Published</span>
+                                    <span class="publication-journal">Molecular Diversity</span>
+                                    <span class="publication-doi hide-mobile">DOI: 10.1007/s11030-025-11255-x</span>
+                                </div>
+                                <a href="https://pubmed.ncbi.nlm.nih.gov/40549293/" target="_blank" class="btn btn-outline publication-link">
+                                    <i class="fas fa-external-link-alt"></i> View Publication
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="publication-card">
-                    <div class="publication-year">2025</div>
-                    <div class="publication-content">
-                        <h3>Ameliorative role of naringenin in MPTP-induced Parkinsonism: Insights from Drosophila melanogaster experimental model combined with computational biology</h3>
-                        <p class="publication-authors">Clive Okonta, Oludare Michael Ogunyemi, <strong>Babatunde Olabuntu</strong>, Amos Olalekan Abolaji</p>
-                        <p class="publication-abstract">
-                            This research combines Drosophila melanogaster experimental models with computational biology approaches to investigate the therapeutic potential of naringenin against MPTP-induced Parkinsonism, providing insights into neuroprotective mechanisms.
-                        </p>
-                        <div class="publication-meta">
-                            <span class="publication-type"><i class="fas fa-book"></i> Research Paper</span>
-                            <span class="publication-status"><i class="fas fa-check-circle"></i> Published</span>
-                            <span class="publication-journal">Toxicology Reports</span>
-                            <span class="publication-doi">DOI: 10.1016/j.toxrep.2025.102004</span>
+                        <div class="publication-card">
+                            <div class="publication-year">2025</div>
+                            <div class="publication-content">
+                                <h3>Ameliorative role of naringenin in MPTP-induced Parkinsonism: Insights from Drosophila melanogaster experimental model combined with computational biology</h3>
+                                <p class="publication-authors">Clive Okonta, Oludare Michael Ogunyemi, <strong>Babatunde Olabuntu</strong>, Amos Olalekan Abolaji</p>
+                                <p class="publication-abstract">
+                                    This research combines Drosophila melanogaster experimental models with computational biology approaches to investigate the therapeutic potential of naringenin against MPTP-induced Parkinsonism, providing insights into neuroprotective mechanisms.
+                                </p>
+                                <div class="publication-meta">
+                                    <span class="publication-type"><i class="fas fa-book"></i> Research Paper</span>
+                                    <span class="publication-status"><i class="fas fa-check-circle"></i> Published</span>
+                                    <span class="publication-journal">Toxicology Reports</span>
+                                    <span class="publication-doi hide-mobile">DOI: 10.1016/j.toxrep.2025.102004</span>
+                                </div>
+                                <a href="https://www.sciencedirect.com/science/article/pii/S2214750025001222" target="_blank" class="btn btn-outline publication-link">
+                                    <i class="fas fa-external-link-alt"></i> View Publication
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="publication-card">
-                    <div class="publication-year">2025</div>
-                    <div class="publication-content">
-                        <h3>In silico study and validation of natural compounds derived from Macleaya cordata as a potent inhibitor for BTK</h3>
-                        <p class="publication-authors">Fidelix, A., Akingbade, T., Jatin, J., <strong>Babatunde Olabuntu</strong>, Olutola, A., and Juwon Akingbade</p>
-                        <p class="publication-abstract">
-                            Computational study identifying and validating natural compounds from Macleaya cordata as potent BTK (Bruton's tyrosine kinase) inhibitors through in silico analysis and validation techniques.
-                        </p>
-                        <div class="publication-meta">
-                            <span class="publication-type"><i class="fas fa-book"></i> Research Paper</span>
-                            <span class="publication-status"><i class="fas fa-check-circle"></i> Published</span>
-                            <span class="publication-journal">Medinformatics</span>
-                            <span class="publication-doi">DOI: 10.47852/bonviewMEDIN52024239</span>
+                        <div class="publication-card">
+                            <div class="publication-year">2025</div>
+                            <div class="publication-content">
+                                <h3>In silico study and validation of natural compounds derived from Macleaya cordata as a potent inhibitor for BTK</h3>
+                                <p class="publication-authors">Fidelix, A., Akingbade, T., Jatin, J., <strong>Babatunde Olabuntu</strong>, Olutola, A., and Juwon Akingbade</p>
+                                <p class="publication-abstract">
+                                    Computational study identifying and validating natural compounds from Macleaya cordata as potent BTK (Bruton's tyrosine kinase) inhibitors through in silico analysis and validation techniques.
+                                </p>
+                                <div class="publication-meta">
+                                    <span class="publication-type"><i class="fas fa-book"></i> Research Paper</span>
+                                    <span class="publication-status"><i class="fas fa-check-circle"></i> Published</span>
+                                    <span class="publication-journal">Medinformatics</span>
+                                    <span class="publication-doi hide-mobile">DOI: 10.47852/bonviewMEDIN52024239</span>
+                                </div>
+                                <a href="https://ojs.bonviewpress.com/index.php/MEDIN/article/view/4239/1236" target="_blank" class="btn btn-outline publication-link">
+                                    <i class="fas fa-external-link-alt"></i> View Publication
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
